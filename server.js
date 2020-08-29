@@ -1,13 +1,13 @@
-const http = require('http');
-const express = require('express');
-const app = express();
-app.get("/", (request, response) => {
-  response.sendStatus(200);
-});
-app.listen(process.env.PORT);
-setInterval(() => {
-  http.get(`http://kingo-hack.glitch.me/`);
-}, 280000);
+
+
+
+
+
+
+
+
+
+
 
 // كل البكجات الي ممكن تحتجها في اي بوت 
 const { Client, RichEmbed } = require("discord.js");
@@ -25,7 +25,7 @@ const moment = require("moment");
 const fs = require('fs');
 const util = require("util")
 const gif = require("gif-search");
-const opus = require("node-opus");
+const opus = require("node-opus")
 const ms = require("ms");
 const jimp = require("jimp");
 const { get } = require('snekfetch');
